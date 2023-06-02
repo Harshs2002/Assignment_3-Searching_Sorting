@@ -1,0 +1,12 @@
+def sort_list_of_strings(lst):
+    sorted_lst = sorted(lst)
+    return sorted_lst
+
+
+# Example usage
+strings = ['banana', 'apple', 'cat', 'dog', 'zebra']
+sorted_strings = sort_list_of_strings(strings)
+print(sorted_strings)
+
+# output
+['apple', 'banana', 'cat', 'dog', 'zebra']
